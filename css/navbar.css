@@ -1,0 +1,22 @@
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    padding: 18px 2rem;
+    margin-bottom: 1rem;
+    margin-left: 10px;
+
+}
+.header_title{
+    color: black;
+    font-size: 18px;
+}
+
+.user_info span{
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}

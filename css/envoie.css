@@ -1,0 +1,103 @@
+.content {
+    background-color: white;
+    height: 650px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.addEmploye {
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.addEmploye button {
+    padding: 12px;
+    background-color: rgb(38, 120, 212);
+    width: 150px;
+    height: 50px;
+    color: white;
+    align-items: center;
+    border-radius: 12px;
+    text-decoration: none;
+    font-size: 15.5px;
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-form input {
+    border-radius: 12px 0 0 12px;
+    border: 3px solid rgb(38, 120, 212);
+    width: 200px;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.search-form button {
+    margin: 0;
+    border-radius: 0 12px 12px 0;
+    height: 46px;
+    padding: 0 12px;
+    border: 3px solid rgb(38, 120, 212);
+    background-color: rgb(38, 120, 212);
+    color: white;
+    cursor: pointer;
+}
+
+.table_data {
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.table_content {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(38, 120, 212);
+    color: white;
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+}
+
+tbody {
+    background-color: white;
+}
+
+td {
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+}
+
+#formUnique{
+    margin-left: 850px;
+}
+
+.exAdmin{
+    justify-content: flex-end !important;
+}

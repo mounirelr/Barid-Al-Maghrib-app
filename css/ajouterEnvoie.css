@@ -1,0 +1,121 @@
+.content{
+    background-color: white; 
+    padding: 7px;
+    margin-left: 10px; 
+    border-radius: 10px; 
+    width: calc(100% - 320px);
+}
+.header_nav{
+    width: calc(100% - 320px);
+}
+#asideBarLeft{
+    position: fixed; 
+    right: 0px; 
+    top: 0px; 
+    width: 300px; 
+    height: 100%; 
+    background-color: white; 
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 0px 5px; 
+    padding: 20px; 
+    z-index: 100;
+}
+
+
+#formInfo{
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+ #formInfo label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+#formInfo input,select,option{
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 3px solid darkgray;
+    width: 400px;
+    padding: 5px;
+}
+
+.error{
+
+    background-color: red;
+    color: white;
+    font-size: 17px;
+}
+
+.titleH{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: -5px;
+    color: rgb(38, 120, 212);
+    text-align: left;
+}
+#optionSms{
+    width: 25px !important;
+}
+.subButton{
+
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.submitOption{
+    margin-left: 10px;
+    padding: 9px;
+    width: 150px;
+    background-color: rgb(38, 120, 212);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;  
+}
+.validateButton{
+    padding: 9px;
+    width: 150px;
+    background-color: rgb(38, 120, 212);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer; 
+
+}
+#asideBarLeft h2{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+#line{
+    margin-left: -15px;
+    height: 2px;
+    width: 290px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+#TotalValue{
+    position: absolute;
+    bottom: 50px;
+    
+    width: 100%;
+    font-size: 18px;
+}
+#TotalValue span{
+    
+    left:100px;
+}
+
+
+#checkUser{
+    padding: 8px;
+    width: 100px;
+    background-color: rgb(38, 120, 212);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer; 
+    margin-left: 2px;
+   
+}

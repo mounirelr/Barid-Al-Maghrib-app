@@ -1,0 +1,55 @@
+.content h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: rgb(38, 120, 212);
+    text-align: left;
+}
+
+.content{
+
+    background-color: white;
+    height: 720px;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+form{
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input,select,option{
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 3px solid darkgray;
+    width: 400px;
+    padding: 5px;
+}
+
+form button{
+    margin-left: 20%;
+    padding: 9px;
+    width: 150px;
+    background-color: rgb(38, 120, 212);
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;    
+}
+
+.error{
+
+    background-color: red;
+    color: white;
+    font-size: 17px;
+}

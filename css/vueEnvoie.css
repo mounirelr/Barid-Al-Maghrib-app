@@ -1,0 +1,56 @@
+.container{
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+table{
+    width: 50%;
+    margin-bottom: 2rem;
+    border-collapse: separate; 
+  border-spacing: 1rem;
+    
+}
+tr{
+   border-spacing: 2rem;
+}
+
+textarea{
+    border: 2px solid lightgray;
+    resize: none;
+}
+#description{
+    
+    margin-bottom: 2rem;
+   border: 2px solid rgb(38, 120, 212);
+   padding: 12px;
+}
+.btn_action{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+#Annuler{
+    background-color: red;
+    margin-left: 60px;
+}
+#recipe{
+    background-color: rgb(38, 120, 212);
+    margin-left: 130px;
+    color: white;
+    font-size: 15px;
+    width: 125px;
+    cursor: pointer;
+}
